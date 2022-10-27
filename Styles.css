@@ -195,6 +195,7 @@ nav{
     text-align: center;
     padding-top: 100px;
     width: 400px;
+    
 }
 
 #cnt-comenzarprojecto-contacto{
@@ -205,7 +206,6 @@ nav{
 }
 
 #div-comenzarprojecto{
-    background-color: black; 
     color: rgb(90, 90, 90);  
     margin: 0px; 
     height: 400px;
@@ -213,8 +213,8 @@ nav{
 }
 
 #boton-comenzarproyecto{
-    font-size: 25px;
-    border: 1px rgba(142, 24, 27) solid;
+    font-size: 20px;
+    border: 2px rgba(142, 24, 27) solid;
     width: 150px;
     margin-left: 110px;
     border-radius: 11px;
@@ -223,11 +223,11 @@ nav{
 }
 
 #boton-comenzarproyecto:hover{
-    background-color: rgba(142, 24, 27);
+    background-color: rgb(0, 0, 0);
     transition: 0.3s;
-
+    color: white;
 }
 
 #boton-comenzarproyecto > a{
-    color: white;
+    color: grey;
 }
