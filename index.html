@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./Styles.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-md fixed-top row">
+        <div class="container-fluid">
+          <div class="container-fluid col">
+            <a class="navbar-brand" href="#"
+              ><img id="logo" src="./Imagenes/Logo.png" alt=""
+            /></a>
+          </div>
+          <div id="cntbutton" class="col-1">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#menu"
+              aria-expanded="false"
+              aria-controls="#menu"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
+          <div
+            id="menu"
+            class="collapse navbar-collapse col justify-content-end"
+          >
+            <ul id="form-menu" class="navbar-nav container-fluid row">
+              <li class="col">
+                <a class="botonmenu" href="#">INICIO</a>
+              </li>
+              <li class="col">
+                <a class="botonmenu" href="#">SOBRE MI</a>
+              </li>
+              <li class="col"><a class="botonmenu" href="#">PORTFOLIO</a></li>
+              <li class="col"><a class="botonmenu" href="#">CONTACTO</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="separacionMenuCarrusel" class="row"></div>
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            class="img-carrusel"
+            src="./Imagenes/Carrusel/Carrusel1.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-md-block">
+            <h5>Julian Bianchi</h5>
+            <p>Programador - Desarrollador Web - Freelance</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="img-carrusel"
+            src="./Imagenes/Carrusel/Carrusel2.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-md-block">
+            <h5>Web Moderna y Escalable.</h5>
+            <p>Desarrollo de Sitios Web Multiplataforma.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="img-carrusel"
+            src="./Imagenes/Carrusel/Carrusel3.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-md-block">
+            <h5>Desempeño en las mejores Herramientas</h5>
+            <p>HTML5 - CSS - Frameworks - Javascript.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div id="titulo" class="container-fluid row">
+      <div id="titulo-2" class="col-md-6">
+        <h1 style="color: rgba(142, 24, 27)">JULIAN BIANCHI</h1>
+        <h2>Programador - Desarrollador Web - Freelance</h2>
+      </div>
+      <div class="col-md-6"><img src="./Imagenes/logo.png" alt="" /></div>
+    </div>
+    <div
+      id="solucionesamedida"
+      class="container-fluid row justify-content-center"
+    >
+      <h2>Soluciones a su Medida</h2>
+      <p>
+        Junto con Diseñadores Web formo un equipo con el que llevamos a cabo
+        Sitios Web con las últimas tendencias en diseño y programación para
+        clientes pequeños y grandes.Mantenemos una estructura que nos permite
+        desarrollar Sitios Web integrales para cada caso. Trabajamos de manera
+        conjunta con nuestros clientes para lograr una rápida y eficaz solución
+        a cada problema, asesorando y coordinando hasta el último detalle.
+      </p>
+      <div class="container-fluid row div-solucionesamedida">
+        <div class="container-fluid col-md-4">
+          <img src="./Imagenes/Iconografia/responsive.png" alt="" />
+          <h3>DISEÑO WEB Y MOVIL</h3>
+          <p>
+            Con la última tecnología y responsive design que se adaptan a todas
+            las plataformas, logramos una Sitio Web multiplataforma...
+          </p>
+        </div>
+        <div class="container-fluid col-md-4">
+          <img src="./Imagenes/Iconografia/atomo.png" alt="" />
+          <h3>PROGRAMADOR WEB</h3>
+          <p>
+            Diagramación profesional de Sitios Web. Programación HTML, XHTML,
+            XML, CSS, Javascript, VBScript, ASP, PHP. Bases de Datos...
+          </p>
+        </div>
+        <div class="container-fluid col-md-4">
+          <img src="./Imagenes/Iconografia/basededatos.png" alt="" />
+          <h3>ALOJAMIENTO WEB</h3>
+          <p>
+            Cuento con la mejores opciones para alojar su Sitio Web y Correos.
+            Venta de Planes LINUX / WINDOWS para instalar su sitio web...
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer class="row">
+      <div id="footer" class="container-fluid row">
+        <div id="footer-author" class="col-md-6">
+          <div>
+            <p>julian.bianchi@davinci.edu.ar</p>
+            <p style="font-size: 12px">
+              © Copyright 2022 - Bianchi Julian <br />
+              Programador Web Freelance. Diseño, Programación y Desarrollo Web
+              <br />
+              Buenos Aires - Argentina.
+            </p>
+          </div>
+        </div>
+        <div id="footer-redes" class="col-md-6">
+          <div class="row">
+            <div class="col-md redes-footer">
+              <a id="link-footer" href="#"
+                ><img
+                  src="./Imagenes/Redes/facebook.png"
+                  alt=""
+                  id="img-footer"
+              /></a>
+            </div>
+            <div class="col-md redes-footer">
+              <a id="link-footer" href="#"
+                ><img
+                  src="./Imagenes/Redes/instagram.png"
+                  alt=""
+                  id="img-footer"
+              /></a>
+            </div>
+            <div class="col-md redes-footer">
+              <a id="link-footer" href="#"
+                ><img
+                  src="./Imagenes/Redes/linkedin.png"
+                  alt=""
+                  id="img-footer"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
