@@ -40,6 +40,11 @@ a{
     padding-left: 20px;
 }
 
+#logo:hover{
+    transition: 0.3s;
+    -webkit-transform: rotate(360deg);transform: rotate(360deg);
+}
+
 li{
     padding: 15px;
     width: 150px;
@@ -127,8 +132,7 @@ nav{
 
 #img-footer:hover{
     transition: 0.3s;
-    border: 2px brown solid;
-    border-radius: 7px;
+    -webkit-transform: rotate(360deg);transform: rotate(360deg);
 }
 
 /* ------------- */
@@ -149,9 +153,12 @@ nav{
     text-align: center;
     background-color: black;
     color: rgb(90, 90, 90);
-    width: auto;
+    border-radius: 50px;
+    margin-top: 50px;
+    width: 1150px;
     padding: 50px;
     box-shadow: 0px 0px 15px 15px rgba(0, 0, 0, 0.9);
+    margin-left: 10px;
 }
 
 .div-solucionesamedida{
@@ -231,13 +238,18 @@ nav{
 }
 
 #boton-comenzarproyecto:hover{
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(142, 24, 27);
     transition: 0.3s;
     color: white;
 }
 
 #boton-comenzarproyecto > a{
     color: grey;
+}
+
+#boton-comenzarproyecto > a:hover{
+    color: white;
+    transition: 0.3s;
 }
 
 /* ------------- */
@@ -260,20 +272,165 @@ nav{
 }
 
 #div-comotrabajamos{
-    background-color: black;
-    margin: 100px;
-    margin-right: 100px;
-    padding-top: 50px;
-    border-radius: 50px;
+    width: 1150px;
     box-shadow: 0px 0px 11px 11px rgb(90, 90, 90);
+    padding: 50px;
+    margin: 50px;
+    border-radius: 50px;
+    margin-left: 70px;
 }
 
 #img-comotrabajamos{
     width: 350px;
     padding: 25px;
+    
 }
 
 #div-comotrabajamos-texto{
-    margin: -50px;
+    padding-top: 100px;
+}
+
+#herramientas > div > div {
+    height: 150px;
+}
+
+#herramientas > div > div > img{
+    height: 75px;
+    width: auto;
+}
+
+#herramientas > div > div > img:hover {
+    height: 100px;
+    width: auto;
+    transition: 0.3s;
+}
+
+#div-herramientas{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    
+}
+
+#herramientas{
+    margin-top: 50px;
+}
+
+#herramientas > div {
+    margin-top: 15px;
+}
+
+/* ------------- */
+/* Estilos portfolio */
+/* ------------- */
+
+#portfolio{
+    margin: 50px;
+}
+
+.card-img-top {
+    object-fit: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+}
+
+.card{
+    box-shadow: 0px 0px 15px 3px rgb(90, 90, 90);
+    border: 0px;
+    border-radius: 25px;
+    margin-top: 50px;
+    
+}
+
+.card > img:hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+
+.card-body{
+    color: rgba(90, 90, 90, 0.548);
+}
+
+.card-title{
+    color: rgb(142,24,27);
+}
+
+/* ------------- */
+/* Estilos contacto */
+/* ------------- */
+
+#form-contacto{
+    margin: 100px;
+}
+
+#div-formulario-contacto{
+    width: 530px;
+    margin-right: 150px;
+}
+
+input{
+    width: 500px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(90, 90, 90);
+}
+
+input:focus{
+    background-color: rgba(255, 68, 0, 0.200);
+    border: 1px solid rgb(142,24,27);
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+textarea{
+    width: 500px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    resize: none;
+    outline: none;
+    border-radius: 15px;
+}
+
+textarea:focus{
+    background-color: rgba(255, 68, 0, 0.200);
+    border: 1px solid rgb(142,24,27);
+}
+
+button{
+    width: 120px;
+    border: 3px solid rgb(142,24,27);
+    border-radius: 15px;
+    color: rgb(90, 90, 90);
+}
+
+#div-formulario-contacto > form > div > button:hover{
+    color: white;
+    transition: 0.3s;
+    background-color: rgb(142,24,27);
+}
+
+#div-redes img{
+    width: 50px;
+    
+}
+
+#div-redes a{
+    text-decoration: none;
+}
+
+#div-redes a:hover{
+    color: rgb(142,24,27);
+}
+
+#div-redes{
+    margin: 50px;
+    padding-top: 40px;
 }
 
