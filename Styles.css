@@ -19,6 +19,7 @@ body::-webkit-scrollbar-thumb{
     border-radius: 7px;
 }
 
+
 a{
     text-decoration: none;
     color: grey;
@@ -363,12 +364,16 @@ nav{
 /* ------------- */
 
 #form-contacto{
-    margin: 100px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+
 }
 
 #div-formulario-contacto{
     width: 530px;
-    margin-right: 150px;
+    margin-right: 50px;
+    
+    
 }
 
 input{
@@ -430,7 +435,6 @@ button{
 }
 
 #div-redes{
-    margin: 50px;
-    padding-top: 40px;
+   padding: 50px;
 }
 
